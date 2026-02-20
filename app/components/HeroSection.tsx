@@ -66,7 +66,7 @@ const HeroSection: React.FC = () => {
       </div>
 
       {/* Hero Image Banner */}
-      <div className="relative w-full mt-16 md:mt-24">
+      <div className="relative w-full mt-0 md:mt-24">
         {/* Image at natural aspect ratio */}
         <img
           src="/1080x360.jfif"
