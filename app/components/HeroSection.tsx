@@ -16,7 +16,7 @@ const HeroSection: React.FC = () => {
   return (
     <section className="relative w-full flex flex-col items-center">
       {/* Navigation */}
-      <nav className={`fixed top-6 left-1/2 -translate-x-1/2 z-50 transition-all duration-500 w-[calc(100%-3rem)] max-w-5xl rounded-[2rem] border border-white/20 ${scrolled ? 'bg-white/70 backdrop-blur-xl shadow-2xl py-3 px-8' : 'bg-white/30 backdrop-blur-md py-4 px-10'
+      <nav className={`relative md:fixed top-0 md:top-6 left-0 md:left-1/2 md:-translate-x-1/2 z-50 transition-all duration-500 w-full md:w-[calc(100%-3rem)] md:max-w-5xl md:rounded-[2rem] border-b md:border border-white/20 ${scrolled ? 'md:bg-white/70 bg-white backdrop-blur-xl shadow-2xl py-3 px-6 md:px-8' : 'md:bg-white/30 bg-white backdrop-blur-md py-4 px-6 md:px-10'
         }`}>
         <div className="flex justify-between items-center">
           <Link href="/" className="relative z-50">
