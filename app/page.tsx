@@ -194,8 +194,8 @@ export default function Home() {
             </div>
 
             <div className="mt-32 pt-16 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-8">
-              <div className="font-outfit font-black text-2xl">ALASIRI<span className="text-blue-600">.</span></div>
-              <div className="text-slate-500 font-bold text-xs uppercase tracking-[0.2em]">© 2026 Alasiri Motors Premium. All Rights Reserved.</div>
+              <div className="font-outfit font-black text-2xl">NOCARCONTEXT<span className="text-blue-600">.</span></div>
+              <div className="text-slate-500 font-bold text-xs uppercase tracking-[0.2em]">© 2026 Nocarcontext. All Rights Reserved.</div>
             </div>
           </div>
         </footer>

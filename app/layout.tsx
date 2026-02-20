@@ -16,7 +16,7 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Alasiri Motors - Premium Car Showcase",
+  title: "Nocarcontext - Premium Car Showcase",
   description: "Discover our exclusive collection of premium vehicles for sale.",
 };
 

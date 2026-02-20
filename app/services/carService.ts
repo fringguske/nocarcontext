@@ -21,7 +21,8 @@ export class CarService {
 
       return (data || []).map((car: Car) => ({ ...car, images: car.images || [] }));
     } catch (error) {
-      console.error('Error fetching cars:', error);
+      console.error('Error fetching cars (raw):', error);
+      console.error('Error fetching cars (JSON):', JSON.stringify(error, null, 2));
       throw new Error('Failed to fetch cars from database');
     }
   }
